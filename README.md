@@ -31,7 +31,8 @@ If you're using Raspberry Pi, make sure to add a delay before running the script
 
 ## Discord Embed
 Success Add IP Address on Access List\
-<img src="https://github.com/z3rsa/mongodb-ddns-updater/blob/main/images/mongodb_success.png?raw=true" alt="MongoDB success image" width="300">\
+<img src="https://github.com/z3rsa/mongodb-ddns-updater/blob/main/images/mongodb_success.png?raw=true" alt="MongoDB success image" width="300">
+
 Fail to add, Already IP Address on Access List\
 <img src="https://github.com/z3rsa/mongodb-ddns-updater/blob/main/images/mongodb_fail.png?raw=true" alt="MongoDB fail image" width="300">
 
