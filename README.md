@@ -30,9 +30,8 @@ If you're using Raspberry Pi, make sure to add a delay before running the script
 ```
 
 ## Discord Embed
-```
 ![alt text](https://github.com/z3rsa/mongodb-ddns-updater/blob/main/images/mongodb_success.png?raw=true)
-```
+
 
 ## Reference
 This script was made with reference from [K0p1-Git | Cloudflare Dynamic DNS IP Updater](https://github.com/K0p1-Git/cloudflare-ddns-updater) Github.
