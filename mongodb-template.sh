@@ -2,10 +2,10 @@
 ## change to "bin/sh" when necessary
 
 # MongoDB Atlas API configuration
-public_key="" # Public API Key from Project Settings -> Access Manager
-private_key="" # Private API Key from Project Settings -> Access Manager
-group_id="" # GroupID same as ProjectID on MongoDB Project Settings
-discord_webhook_url=""  # URI for Discord WebHook "https://discordapp.com/api/webhooks/xxxxx"
+public_key=""                                                                   # Public API Key from Project Settings -> Access Manager
+private_key=""                                                                  # Private API Key from Project Settings -> Access Manager
+group_id=""                                                                     # GroupID same as ProjectID on MongoDB Project Settings
+discord_webhook_url=""                                                          # URI for Discord WebHook "https://discordapp.com/api/webhooks/xxxxx"
 tanggal=$(LC_ALL=id_ID.utf8 TZ=Your/Timezone date +"%A, %d %B %Y Jam %H:%M:%S") # tanggal means date
 
 ip_address=$(curl -s https://api.ipify.org) # Get Dynamic IP
@@ -88,7 +88,7 @@ case "$result" in
       "embeds": [
         {
           "title": "MongoDB Access List 【example.com】",
-          "description": "**Berhasil menambah IP Address!**\n⸺⸺⸺⸺⸺⸺⸺⸺◉\n'z3rsa.com' ➠ '$ip_address'\n⸺⸺⸺⸺⸺⸺⸺⸺◉\n'"$tanggal"'",
+          "description": "**Berhasil menambah IP Address!**\n⸺⸺⸺⸺⸺⸺⸺⸺◉\n'example.com' ➠ '$ip_address'\n⸺⸺⸺⸺⸺⸺⸺⸺◉\n'"$tanggal"'",
           "color": 65280 # Green Color
         }
       ],

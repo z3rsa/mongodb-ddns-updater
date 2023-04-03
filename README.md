@@ -12,12 +12,12 @@ git clone https://github.com/z3rsa/mongodb-ddns-updater.git
 This script is used with crontab. Specify the frequency of execution through crontab.
 
 ```bash
-# ┌───────────── minute (0 - 59)
-# │ ┌───────────── hour (0 - 23)
-# │ │ ┌───────────── day of the month (1 - 31)
-# │ │ │ ┌───────────── month (1 - 12)
-# │ │ │ │ ┌───────────── day of the week (0 - 6) (Sunday to Saturday 7 is also Sunday on some systems)
-# │ │ │ │ │ ┌───────────── command to issue                               
+# ┌───────────── minute/menit (0 - 59) 
+# │ ┌───────────── hour/jam (0 - 23)
+# │ │ ┌───────────── day/hari of the month (1 - 31)
+# │ │ │ ┌───────────── month/bulan (1 - 12)
+# │ │ │ │ ┌───────────── day/hari of the week (0 - 6) (Sunday to Saturday 7 is also Sunday on some systems)
+# │ │ │ │ │ ┌───────────── command to issue                                
 # │ │ │ │ │ │
 # │ │ │ │ │ │
 # * * * * * /bin/bash {Location of the script}
