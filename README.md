@@ -30,7 +30,13 @@ If you're using Raspberry Pi, make sure to add a delay before running the script
 ```
 
 ## Discord Embed
-<img src="https://github.com/z3rsa/mongodb-ddns-updater/blob/main/images/mongodb_success.png?raw=true" alt="MongoDB success image" width="400" height="250"><img src="https://github.com/z3rsa/mongodb-ddns-updater/blob/main/images/mongodb_fail.png?raw=true" alt="MongoDB success image" width="400" height="250">
+<figure>
+  <img src="https://github.com/z3rsa/mongodb-ddns-updater/blob/main/images/mongodb_success.png?raw=true" alt="MongoDB success image">
+  <figcaption>Success Add IP Address on Access List</figcaption>
+</figure><figure>
+  <img src="https://github.com/z3rsa/mongodb-ddns-updater/blob/main/images/mongodb_fail.png?raw=true" alt="MongoDB fail image">
+  <figcaption>Fail - Already IP Address on Access List</figcaption>
+</figure>
 
 ## Reference
 This script was made with reference from [K0p1-Git | Cloudflare Dynamic DNS IP Updater](https://github.com/K0p1-Git/cloudflare-ddns-updater) Github.
