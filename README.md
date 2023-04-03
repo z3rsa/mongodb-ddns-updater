@@ -31,7 +31,7 @@ If you're using Raspberry Pi, make sure to add a delay before running the script
 
 ## Discord Embed
 ```
-<img src="https://github.com/z3rsa/mongodb-ddns-updater/blob/main/images/mongodb_success.png?raw=true" alt="MongoDB success image" width="400" height="300">
+![alt text](https://github.com/z3rsa/mongodb-ddns-updater/blob/main/images/mongodb_success.png?raw=true)
 ```
 
 ## Reference
